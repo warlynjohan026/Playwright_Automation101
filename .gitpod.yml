@@ -1,0 +1,18 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: |
+      npm install
+      npx playwright install
+    command: |
+      echo "Ready to run tests! Use 'npx playwright test' in the terminal."
+
+ports:
+  - port: 3000
+    onOpen: ignore
+
+vscode:
+  extensions:
+    - ms-playwright.playwright
+    - esbenp.prettier-vscode
