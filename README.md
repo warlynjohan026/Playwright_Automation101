@@ -3,7 +3,7 @@ Run in Gitpod
 
 Click below to launch this project in a pre-configured Gitpod environment:
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/YOUR-USERNAME/Playwright101Project)
+[![Open in Gitpod](https://gitpod.io/#https://github.com/warlynjohan026/Playwright_Automation101)
 
 ---
 
@@ -53,4 +53,4 @@ Click below to launch this project in a pre-configured Gitpod environment:
 Once Gitpod starts:
 
 ```bash
-npx playwright test
+npm test
