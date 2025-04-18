@@ -50,15 +50,6 @@ export default defineConfig({
       },
     },
 
-    {
-      name: "firefox",
-      use: {
-        ...devices["Desktop Firefox"],
-        headless: false,
-        slowMo: 500,
-        viewport: { width: 2552, height: 1267 },
-      },
-    },
 
     /* Test against mobile viewports. */
     // {

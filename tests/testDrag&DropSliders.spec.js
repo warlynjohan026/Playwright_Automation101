@@ -1,12 +1,12 @@
 import { test, expect, chromium } from "@playwright/test";
 
 const capabilities = {
-  browserName: "chrome",
+  browserName: "pw-webkit",
   browserVersion: "latest",
   "LT:Options": {
     platform: "Windows 11",
     build: "Playwright Lambda Automation 101",
-    name: "Test Scenatio 2",
+    name: "Test Scenario 2",
     user: "warlynjohan0126",
     accessKey: "LT_TBE09S3A74Gz0jgzWA73ioEkTdX6XzzAGZa3BIbKpx7SgcG",
     network: true,
