@@ -3,7 +3,7 @@ Run in Gitpod
 
 Click below to launch this project in a pre-configured Gitpod environment:
 
-https://gitpod.io/#https://github.com/warlynjohan026/Playwright_Automation101)
+https://gitpod.io/#https://github.com/warlynjohan026/Playwright_Automation101
 
 ---
 
