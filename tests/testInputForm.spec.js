@@ -13,6 +13,7 @@ const capabilities = {
     network: true,
     video: true,
     console: true,
+    screenshot: true,
   },
 };
 

@@ -4,7 +4,7 @@ const capabilities = {
   browserName: "pw-webkit",
   browserVersion: "latest",
   "LT:Options": {
-    platform: "Windows 11",
+    platform: "MacOS Sequoia",
     build: "Playwright Lambda Automation 101",
     name: "Test Scenario 2",
     user: "warlynjohan0126",
@@ -12,6 +12,7 @@ const capabilities = {
     network: true,
     video: true,
     console: true,
+    screenshot: true,
   },
 };
 
