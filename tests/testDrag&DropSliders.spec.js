@@ -16,7 +16,7 @@ const capabilities = {
 };
 
 test("Mouse drag slider to exactly 95", async () => {
-  test.setTimeout(300000);
+  test.setTimeout(500000);
   const browser = await chromium.connect({
     wsEndpoint: `wss://cdp.lambdatest.com/playwright?capabilities=${encodeURIComponent(
       JSON.stringify(capabilities)

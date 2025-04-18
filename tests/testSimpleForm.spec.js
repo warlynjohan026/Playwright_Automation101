@@ -18,7 +18,7 @@ const capabilities = {
 
 test.describe("Simple Form", async () => {
   test("Enter Message in Input Box and validate message", async () => {
-    test.setTimeout(300000);
+    test.setTimeout(500000);
     const browser = await chromium.connect({
       wsEndpoint: `wss://cdp.lambdatest.com/playwright?capabilities=${encodeURIComponent(
         JSON.stringify(capabilities)
